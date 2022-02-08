@@ -1,10 +1,12 @@
 // import { useState } from 'react/cjs/react.development';
 import './App.css';
-import Calculator from './Calculator/Calculator';
+// import Calculator from './Calculator/Calculator';
+import EmojiSearch from './EmojiSearch/EmojiSearch';
 // import Profile from './SocialMediaApp/Pages/Profile/Profile';
 // import Expense from './practice/Components/Child-to-Parent/Expense';
 // import Expenses from './practice/Components/Functional/ExpenseTracker/Expenses';
 // import NewExpense from './practice/Components/Functional/NewExpense/NewExpense';
+import './EmojiSearch/EmojiSearch.css'; 
 function App() {
   // const Dummy_expenses = [
   //   {
@@ -41,7 +43,8 @@ function App() {
       {/* <Expense/> child-to-parent example */}
       {/* <Home/> */}
       {/* <Profile/> */}
-      <Calculator/>
+      {/* <Calculator/> */}
+      <EmojiSearch/>
     </div>
   );
 }
