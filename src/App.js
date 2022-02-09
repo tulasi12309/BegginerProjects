@@ -1,5 +1,7 @@
 // import { useState } from 'react/cjs/react.development';
 import './App.css';
+// import TodoList from './TodoList/TodoList';
+import WeatherApp from './WeatherApp/WeatherApp';
 // import Calculator from './Calculator/Calculator';
 // import EmojiSearch from './EmojiSearch/EmojiSearch';
 // import Profile from './SocialMediaApp/Pages/Profile/Profile';
@@ -7,7 +9,7 @@ import './App.css';
 // import Expenses from './practice/Components/Functional/ExpenseTracker/Expenses';
 // import NewExpense from './practice/Components/Functional/NewExpense/NewExpense';
 // import './EmojiSearch/EmojiSearch.css'; 
-import ImageGallery from './ImageGallery/ImageGallery';
+// import ImageGallery from './ImageGallery/ImageGallery';
 function App() {
   // const Dummy_expenses = [
   //   {
@@ -46,7 +48,9 @@ function App() {
       {/* <Profile/> */}
       {/* <Calculator/> */}
       {/* <EmojiSearch/> */}
-      <ImageGallery/>
+      {/* <ImageGallery/> */}
+      {/* <TodoList/> */}
+      <WeatherApp/>
     </div>
   );
 }
