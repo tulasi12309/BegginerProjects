@@ -1,7 +1,8 @@
 // import { useState } from 'react/cjs/react.development';
 import './App.css';
+import StickyNotes from './StickyNotes/StickyNotes';
 // import TodoList from './TodoList/TodoList';
-import WeatherApp from './WeatherApp/WeatherApp';
+// import WeatherApp from './WeatherApp/WeatherApp';
 // import Calculator from './Calculator/Calculator';
 // import EmojiSearch from './EmojiSearch/EmojiSearch';
 // import Profile from './SocialMediaApp/Pages/Profile/Profile';
@@ -50,7 +51,8 @@ function App() {
       {/* <EmojiSearch/> */}
       {/* <ImageGallery/> */}
       {/* <TodoList/> */}
-      <WeatherApp/>
+      {/* <WeatherApp/> */}
+      <StickyNotes/>
     </div>
   );
 }
