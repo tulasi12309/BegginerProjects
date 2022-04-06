@@ -26,7 +26,8 @@ function PasswordGenerator() {
     event.preventDefault();
     let passwordObj = getPasswordObj(state);
     let thePassword=generatePassword(passwordObj,state.passwordLength)
-    console.log(thePassword);
+    // console.log(thePassword);
+    setState({...state, generatedpassword : thePassword})
   }
   return (
     <div className="container mt-5">
