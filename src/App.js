@@ -1,6 +1,8 @@
 // import { useState } from 'react/cjs/react.development';
 import './App.css';
-import StickyNotes from './StickyNotes/StickyNotes';
+import PasswordGenerator from './PasswordGenerator/PasswordGenerator';
+// import Pokemon from './Pokemon/Pokemon';
+// import StickyNotes from './StickyNotes/StickyNotes';
 // import TodoList from './TodoList/TodoList';
 // import WeatherApp from './WeatherApp/WeatherApp';
 // import Calculator from './Calculator/Calculator';
@@ -52,7 +54,9 @@ function App() {
       {/* <ImageGallery/> */}
       {/* <TodoList/> */}
       {/* <WeatherApp/> */}
-      <StickyNotes/>
+      {/* <StickyNotes/> */}
+      {/* <Pokemon/> */}
+      <PasswordGenerator/>
     </div>
   );
 }
